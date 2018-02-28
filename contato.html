@@ -1,0 +1,59 @@
+ <!doctype html>
+      <html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Have Fun | Home</title>
+		<link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="http://www.adventurefair.com.br/favicon.ico" type="image/x-icon">
+	</head>
+    <body>
+	
+	<header>
+	      <h1> Formulário de Contato </h1>
+		       <div class="container">
+			   <div id="logo">
+			  <h2>Contato</h2>
+		</div>
+			<nav>
+				<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				<nav>	
+		</div>
+	</header>
+	 
+	<h2>
+SOLICITAMOS NÃO UTILIZAR ESTE SISTEMA E ENVIAR SUA <br>MENSAGEM DIRETAMENTE PARA O EMAIL: <br>Adventurefair@hotmail.com.br ou telefonar para: (21)xxxx-xxxx / (21)xxxx-xxxx. </h2>
+	
+	<main>
+            <form method="POST" enctype="multipart/form-data" action="#">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <label for="txtNome">Nome:</label>
+                    <input type="text" name="txtNome" id="txtNome" value="" required />
+                    <label for="dtDataNascimento">Data de nascimento:</label>
+                    <input type="date" name="dtDataNascimento" id="dtDataNascimento" value="" />
+                    <label for="filFoto">Foto pessoal</label>
+                    <input type="file" name="filFoto" id="filFoto" />
+                </fieldset>
+                <fieldset>
+                    <legend>Contato</legend>
+                    <label for="telResidencial">Telefone:</label>
+                    <input type="tel" name="telResidencial" id="telResidencial" value="" />
+                    <label for="emlPessoal">E-mail pessoal:</label>
+                    <input type="email" name="emlPessoal" id="emlPessoal" value="" />
+                    <label for="urlFacebook">Facebook:</label>
+                    <input type="url" name="urlFacebook" id="urlFacebook" value="" />
+					<label for="mensagem">Mensagem:</label>
+                    <input type="assunto" name="mensagem" id="mensagem" value="" />
+                </fieldset>
+            </form>
+        </main>
+
+	   <footer>
+		<p>Have Fun, copyright &copy by MAFWR 2018</p>
+	   </footer>
+</body>
+</html

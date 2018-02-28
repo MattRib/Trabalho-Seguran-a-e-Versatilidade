@@ -19,6 +19,7 @@ header
     padding-top:30px;
     min-height: 70px;
     border-bottom: #ff3030 5px solid;
+	
 
 }
 
@@ -30,6 +31,7 @@ header a
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
+	
 
 }
 
