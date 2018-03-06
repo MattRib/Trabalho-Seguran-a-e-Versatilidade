@@ -25,6 +25,11 @@ body
     
 }
 
+h2{
+	text-align:center;
+	
+}
+
 .container
 {
     width: 80%;
@@ -103,3 +108,8 @@ nav ul li a
     margin-bottom: 10px;
     border-bottom: #ff3030 5px solid;
 }
+.cadastro{
+	font-weight: 100px;
+		
+}
+.
