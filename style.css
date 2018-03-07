@@ -24,10 +24,16 @@ body
     background-color: #ebebeb;
     
 }
+h1 {
+	text-align:center;
+}
 
 h2{
 	text-align:center;
 	
+}
+main {
+	text-align:center;
 }
 
 .container
@@ -89,7 +95,9 @@ nav ul li a
    
     
 }
-
+textarea{
+	resize: none;
+}
 .box img
 {
     width:  20%;
