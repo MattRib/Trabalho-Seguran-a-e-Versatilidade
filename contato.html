@@ -1,72 +1,66 @@
- <!doctype html>
-      <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title>Have Fun | Home</title>
-		<link rel="stylesheet" href="./style.css">
-        <link rel="shortcut icon" href="http://www.adventurefair.com.br/favicon.ico" type="image/x-icon">
-	</head>
-    <body>
-		
-	
-	<header>
-		<marquee> @fabinho.html</marquee>
-		<td bgcolor="#345320" align="right"><font size="2" color="#FFFFFF" face="Verdana, Geneva, Arial, Helvetica, sans-serif"><p style="font-size : 13px;">Terça-feira, 06/03/2018</p></font></td>
-			
-	      <h1> Formulário de Contato </h1>
-		       <div class="container">
-			   <div id="logo">
-			  <h2>Contato</h2>
-		</div>
-			<nav>
-				<ul>
-						<li><a href="home.html">Home</a></li>
-						<li><a href="sobre.html">Sobre</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				<nav>	
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./stylecontato.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header id="logo">
+		<di class="container">
+			<h1></h1>
 		</div>
 	</header>
-	 
+	<div class="topnav">	
+		<a href="home.html">home</a>
+		<a href="sobre.html">sobre</a>
+		<a  class="active" href="contato.html">contato</a>
+			<div id="yout">
+				<a href="#" class="fa fa-youtube"></a>
+			</div>
+			<div id="twit">
+				<a href="#" class="fa fa-twitter"></a>
+			</div>
+			<div id="face">
+				<a  href="#" class="fa fa-facebook"></a>
+			</div>
+	</div>
+
+	<h2>Login</h2>
+
+	<form>
+	<div class="containr">
+		<label for="uname"><b>Usuário</b><label>
+		<input type="text" placeholder="Nome Usuario" name="uname" required>
+
+		<label for="psw"><b>Senha</b></label>
+		<input type="password" placeholder="Digite Senha" name="psw" required>
+
+		<button type="submit">Login</button>
+		<label>
+			<input type="checkbox" checed="checked" name="remember">Lembrar de mim
+		</label>
+	</div>
+
+	<div class="containr" style="background-color:#f1f1f1">
+		<button type="button" class="cancelbtn">Cancelar</button>
+		<span class="psw">Esqueceu sua<a href="#">Senha?</a></span>
+	</div>
+	</form>
 
 
-	<main>
-            <form method="POST" enctype="multipart/form-data" action="#">
-                <fieldset>
-			<div class="cadastross">
-				<h2>Cadastre-se para saber mais!</h2
-                    <legend>Dados pessoais</legend>
-                    <label for="txtNome">Nome:</label>
-                    <input type="text" name="txtNome" id="txtNome" value="" required />   
 
-                
-                    <label for="telResidencial">Telefone:</label>
-                    <input type="tel" name="telResidencial" id="telResidencial" value="" />
-                    <label for="emlPessoal">E-mail pessoal:</label>
-                    <input type="email" name="emlPessoal" id="emlPessoal" value="" />
-                    <label for="urlFacebook">Facebook:</label>
-                    <input type="url" name="urlFacebook" id="urlFacebook" value="" />
-					<input type ="submit" name="submit">
-					</div>
-                </fieldset>
-				<div class="mensagem">
-				
-				<fieldset>
-					<h2>Mande uma mensagem!</h2>
 
-				
-                    <textarea name="mensagem" cols="50" rows="10">Envie sua mensagem...</textarea>
-				
-					
-					
-					</fieldset>
-				</div>
-            </form>
-        </main>
 
-	   <footer>
-	   
-		<p>Have Fun, copyright &copy by MAFWR 2018</p> <center> <p> Contate-nos ! adventure@hotmail.com </p> </center>
-	   </footer>
+
+
+
+
+<footer>
+	<p>Adventure Sports, copyright &copy by WMF 2018</p>
+</footer>
 </body>
-</html
+</html>
+
+	
